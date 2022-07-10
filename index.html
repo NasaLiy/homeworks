@@ -26,8 +26,10 @@
           <input
                   type="search"
                   class="form-control"
-                  id="search-input"
+                  id="city-input"
                   placeholder="Enter a city"
+                  autofocus="on"
+                  autocomplete="off"
           />
           <button type="submit" class="btn btn-primary">Search</button>
         </div>
@@ -49,7 +51,7 @@
       <div class="col-sm-12 col-md-6 d-flex align-items-center">
         <img src="src/image/sun.png" alt="weather" class="main-icon-weather">
         <div class="d-flex align-items-start">
-          <h2 class="temperature" id="temperature">22</h2>
+          <h2 class="temperature" id="temperature"></h2>
           <div class="dif-temp">
             <a href="#" id="celsius" class="temp-dif">°C</a> |
             <a href="#" id="fahrenheit" class="temp-dif">°F</a>
