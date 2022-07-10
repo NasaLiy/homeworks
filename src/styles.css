@@ -33,3 +33,6 @@ h1 {
 .card:hover {
     opacity: 0.7;
 }
+.open-source{
+    text-decoration: none;
+}
