@@ -1,0 +1,32 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+h1 {
+    color: blue;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+.temperature {
+    font-size: 5rem;
+    margin-left: 40px;
+}
+.dif-temp {
+    padding-top: 18px;
+}
+.temp-dif {
+    text-decoration: none;
+}
+.main-icon-weather {
+    width: 5rem;
+}
+.card-img {
+    width: 20%!important;
+}
+
+.card {
+    cursor: pointer;
+    transition: 300ms all ease-in-out;
+}
+.card:hover {
+    opacity: 0.7;
+}
