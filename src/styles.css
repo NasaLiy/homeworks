@@ -6,6 +6,9 @@ h1 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
 }
+.form-search{
+    display: flex;
+}
 .temperature {
     font-size: 5rem;
     margin-left: 40px;
